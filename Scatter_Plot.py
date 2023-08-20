@@ -10,9 +10,9 @@ days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
 #days = range(1,5)
 
 plt.scatter(days,ugar_sugar, label = 'Ugar_sugar', color = 'green', marker = 'o')
-plt.plot(days,jyoti_res, label = 'Jyoti_res', color = 'Yellow', marker = 'o')
-plt.plot(days, avalon, label = 'Avalon', color = 'red', marker = 'o')
-plt.plot(days, yes_bank, label = 'Yes_Bank', color = 'orange', marker = 'o')
+plt.scatter(days,jyoti_res, label = 'Jyoti_res', color = 'Yellow', marker = 'o')
+plt.scatter(days, avalon, label = 'Avalon', color = 'red', marker = 'o')
+plt.scatter(days, yes_bank, label = 'Yes_Bank', color = 'orange', marker = 'o')
 #label - for representing a box at upper left 
 #marker - for getting good view at turning points 
 
